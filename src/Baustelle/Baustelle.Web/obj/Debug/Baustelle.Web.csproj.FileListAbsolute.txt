@@ -1,0 +1,5 @@
+D:\Project\Baustelle\src\Baustelle\Baustelle.Web\bin\Baustelle.Web.dll
+D:\Project\Baustelle\src\Baustelle\Baustelle.Web\bin\Baustelle.Web.pdb
+D:\Project\Baustelle\src\Baustelle\Baustelle.Web\obj\Debug\Baustelle.Web.csprojResolveAssemblyReference.cache
+D:\Project\Baustelle\src\Baustelle\Baustelle.Web\obj\Debug\Baustelle.Web.dll
+D:\Project\Baustelle\src\Baustelle\Baustelle.Web\obj\Debug\Baustelle.Web.pdb
