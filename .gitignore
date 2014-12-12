@@ -1,2 +1,8 @@
 src/Baustelle.v11.suo
 *.suo
+src/Baustelle.Web/bin/Baustelle.Web.dll
+src/Baustelle.Web/bin/Baustelle.Web.dll
+*.pdb
+src/Baustelle.Web/obj/Debug/Baustelle.Web.dll
+src/Baustelle.Web/obj/Debug/Baustelle.Web.pdb
+src/Baustelle.Web/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
