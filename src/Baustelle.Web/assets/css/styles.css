@@ -350,8 +350,9 @@ table {
 
 #left-sidebar .logo img {
     display:block;
-    margin: 0 0 auto 0px;
-    width: 308px;
+    margin:0 auto;
+    width:auto;
+    max-width:75%;
     height:auto;
 }
 

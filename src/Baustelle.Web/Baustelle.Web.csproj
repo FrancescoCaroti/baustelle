@@ -175,6 +175,7 @@
     <Content Include="assets\js\wow\animate.css" />
     <Content Include="assets\js\wow\wow.min.js" />
     <Content Include="architettura.html" />
+    <Content Include="progetti-architettura.html" />
     <Content Include="Default.aspx" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
