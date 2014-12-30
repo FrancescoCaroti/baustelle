@@ -1049,10 +1049,7 @@ h6 {
 }
 #main-content .feature-columns .feature-col .thumbnail:hover {
     background-color: transparent;
-    background-color: rgba(0,0,0,0.3);
-    background:#fff;
-    border: 1px solid rgba(255,255,255,0.1);
-    color:#000;
+    background-color: rgba(0,0,0,0.15);
     text-decoration: none;
 }
 
@@ -1069,7 +1066,7 @@ h6 {
 }
 
 #main-content .feature-columns .feature-col .thumbnail:hover * {
-    color:#000;
+    
     text-shadow:none;
 }
 
