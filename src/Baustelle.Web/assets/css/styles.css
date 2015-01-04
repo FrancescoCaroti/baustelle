@@ -351,7 +351,7 @@ table {
 #left-sidebar .logo img {
     display:block;
     margin:0 auto;
-    width:auto;
+    width: 95%;
     max-width:95%;
     height:auto;
 }
