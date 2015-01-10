@@ -24,7 +24,8 @@
     
     // Change to localize to non-english language
     LightboxOptions.prototype.albumLabel = function(curImageNum, albumSize) {
-      return "Image " + curImageNum + " of " + albumSize;
+        //return "Immagine " + curImageNum + " di " + albumSize;
+        return "";
     };
 
     return LightboxOptions;

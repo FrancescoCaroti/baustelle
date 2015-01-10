@@ -73,11 +73,26 @@
     <Content Include="assets\css\fonts\OpenSans-Semibold-webfont.svg" />
     <Content Include="assets\css\fonts\stylesheet.css" />
     <Content Include="assets\css\styles.css" />
+    <Content Include="assets\images\bg\Acontatti.png" />
+    <Content Include="assets\images\bg\Ahome.png" />
+    <Content Include="assets\images\bg\Aprogetti.png" />
+    <Content Include="assets\images\bg\Apubblicazioni.png" />
+    <Content Include="assets\images\bg\Astudio.png" />
+    <Content Include="assets\images\bg\monselice SFONDO 1800x1200.jpg" />
+    <Content Include="assets\images\bg\san petronio SFONDO 1800x1200.JPG" />
+    <Content Include="assets\images\bg\scala C.png" />
+    <Content Include="assets\images\loghi\Arch.svg" />
+    <Content Include="assets\images\loghi\BASE breack apart ARCH.svg" />
+    <Content Include="assets\images\loghi\BASE breack apart GRAPH.svg" />
+    <Content Include="assets\images\loghi\BASE breack apart LOGO.svg" />
     <Content Include="assets\images\loghi\baustelleSTUDIO.png" />
+    <Content Include="assets\images\loghi\Baustellestudio.svg" />
+    <Content Include="assets\images\loghi\Graph.svg" />
     <Content Include="assets\images\loghi\K ocean GREEN copy.png" />
     <Content Include="assets\images\loghi\logo ARCH.png" />
     <Content Include="assets\images\loghi\logo GRAPH.png" />
     <Content Include="assets\images\loghi\logo PHOTO.png" />
+    <Content Include="assets\images\loghi\Photo.svg" />
     <Content Include="assets\images\other_images\bg1.jpg" />
     <Content Include="assets\images\other_images\bg2.jpg" />
     <Content Include="assets\images\other_images\bg3.jpg" />
@@ -111,6 +126,24 @@
     <Content Include="assets\images\other_images\transp-image5b.png" />
     <Content Include="assets\images\other_images\transp-image6.png" />
     <Content Include="assets\images\other_images\transp-image7.png" />
+    <Content Include="assets\images\progetti\monselice CAROUSSEL 1200x800\TAVOLA 1_low.png" />
+    <Content Include="assets\images\progetti\monselice CAROUSSEL 1200x800\TAVOLA 2_low.png" />
+    <Content Include="assets\images\progetti\monselice CAROUSSEL 1200x800\TAVOLA 2_z.png" />
+    <Content Include="assets\images\progetti\monselice CAROUSSEL 1200x800\TAVOLA 3_low.png" />
+    <Content Include="assets\images\progetti\monselice CAROUSSEL 1200x800\TAVOLA 3_z.png" />
+    <Content Include="assets\images\progetti\monselice CAROUSSEL 1200x800\TAVOLA 4_low.png" />
+    <Content Include="assets\images\progetti\monselice CAROUSSEL 1200x800\TAVOLA 5_low.png" />
+    <Content Include="assets\images\progetti\monselice ICONA 300x200.jpg" />
+    <Content Include="assets\images\progetti\san petronio CAROUSSEL 1200x800\san petronio 00 aerea.png" />
+    <Content Include="assets\images\progetti\san petronio CAROUSSEL 1200x800\san petronio 01 facciata.png" />
+    <Content Include="assets\images\progetti\san petronio CAROUSSEL 1200x800\san petronio 02 facciata.png" />
+    <Content Include="assets\images\progetti\san petronio CAROUSSEL 1200x800\san petronio 05 portale.png" />
+    <Content Include="assets\images\progetti\san petronio CAROUSSEL 1200x800\san petronio 06 formella fasi.png" />
+    <Content Include="assets\images\progetti\san petronio CAROUSSEL 1200x800\san petronio 07 Lunetta.png" />
+    <Content Include="assets\images\progetti\san petronio CAROUSSEL 1200x800\san petronio 08 adorazione magi.png" />
+    <Content Include="assets\images\progetti\san petronio CAROUSSEL 1200x800\san petronio 09 interni.png" />
+    <Content Include="assets\images\progetti\san petronio CAROUSSEL 1200x800\san petronio 10 NOTTE.png" />
+    <Content Include="assets\images\progetti\san petronio ICONA 300x200.jpg" />
     <Content Include="assets\images\theme_images\background-image-overlay.png" />
     <Content Include="assets\images\theme_images\carousel_arrow_left.png" />
     <Content Include="assets\images\theme_images\carousel_arrow_right.png" />
@@ -192,7 +225,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="assets\images\bg\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\bootstrap\css\bootstrap-theme.css.map" />
@@ -248,6 +280,9 @@
     <Content Include="assets\js\lightbox\js\jquery-1.11.0.min.map" />
     <Content Include="assets\js\lightbox\js\lightbox.min.map" />
     <Content Include="assets\js\lightbox\README.markdown" />
+    <Content Include="assets\js\lightbox\js\lightbox.min.js.map">
+      <DependentUpon>lightbox.js</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
