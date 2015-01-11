@@ -83,7 +83,6 @@
             <ul id="main-menu">
                 <li id="menu-item-sanpetronio" class="menu-item scroll"><a href="#sanpetronio">San Petronio</a></li>
                 <li id="menu-item-monselice" class="menu-item scroll"><a href="#monselice">Monselice</a></li>
-                <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Contatti</a></li>
                 <!-- to include a link which doesn't scroll to a section inside the page, remove the .scroll class from the <li> - example below -->
                 <!-- <li id="menu-item-alt-page" class="menu-item"><a href="http://www.link.com">Outer Link</a></li> -->
             </ul>
@@ -301,98 +300,6 @@
                     <!-- .col-sm-10 -->
                 </div>
             </article>
-
-            <!-- ==================== SECTION TYPE: Contact ==================== -->
-            <!-- This type of section should contain text (contact details) and a contact form -->
-            <!-- FOR EACH SECTION <article class="section-wrapper".. :
-             - remember to use a unique id, 
-             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
-            <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/Acontatti.png">
-                <div class="content-wrapper clearfix">
-
-                    <!-- Start: Section content to edit -->
-
-                    <h1 class="section-title">Contatti</h1>
-
-                    <!-- CONTACT DETAILS -->
-                    <div class="contact-details col-sm-5 col-md-3">
-                        <p>
-                            BOLOGNA<br />
-                            via Pizzardi, 9<br />
-                            40138
-                        </p>
-
-                        <p>
-                            CESENA<br />
-                            via Ponte Abbadesse, 152<br />
-                            47023
-                        </p>
-
-                        <p>
-                            FERRARA<br />
-                            via Valle Fattibello, 120<br />
-                            44100
-                        </p>
-
-                        <p>
-                            tel. +39 37 13 901<br />
-                            fax +39 051 484 44 44
-                        </p>
-
-                        <p><a href="mailto:info@baustellestudio.it"><i class="fa fa-share"></i>baustellestudio.it</a></p>
-                    </div>
-                    <!-- END: CONTACT DETAILS -->
-
-                    <!-- CONTACT FORM -->
-                    <div class="col-sm-7 col-md-9">
-                        <!-- IMPORTANT: change the email address at the top of the assets/php/mail.php file to the email address that you want this form to send to -->
-                        <form class="form-style validate-form clearfix" action="assets/php/mail.php" method="POST" role="form">
-
-                            <!-- form left col -->
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="text-field form-control validate-field required" data-validation-type="string" id="form-name" placeholder="Nome Completo" name="name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="text-field form-control validate-field required" data-validation-type="email" id="form-email" placeholder="Indirizzo Mail" name="email">
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="text-field form-control validate-field phone" data-validation-type="phone" id="form-contact-number" placeholder="Numero Telefonico" name="contact_number">
-                                </div>
-                                <div class="form-group text-right">
-                                    <!--<img id="form-captcha-img" src="assets/php/form_captcha/captcha_img.php">
-                                    <input type="text" class="text-field form-control validate-field required" data-validation-type="captcha" id="form-captcha" placeholder="Enter text" name="captcha">
-                                    <span id="form-captcha-refresh" class="fa fa-refresh" title="Reload"></span>-->
-
-                                    <!-- inserire captcha -->
-                                </div>
-                            </div>
-                            <!-- end: form left col -->
-
-                            <!-- form right col -->
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea placeholder="Messaggio..." class="form-control validate-field required" name="message"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <img src="assets/images/theme_images/loader-form.GIF" class="form-loader">
-                                    <button type="submit" class="btn btn-sm btn-outline-inverse">Invia</button>
-                                </div>
-                                <div class="form-group form-general-error-container"></div>
-                            </div>
-                            <!-- end: form right col -->
-
-                        </form>
-                    </div>
-                    <!-- end: CONTACT FORM -->
-
-                    <!-- End: Section content to edit -->
-
-                </div>
-                <!-- .content-wrapper -->
-            </article>
-            <!-- .section-wrapper -->
-            <!-- ==================== ENDL SECTION TYPE: Contact ==================== -->
 
         </section>
         <!-- #main-content -->
