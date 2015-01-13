@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>Architettura</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/images/other_images/favicon.png"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Bootstrap theme -->
+    <link href="assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <!-- owl carousel css -->
+    <link href="assets/js/owl-carousel/owl.carousel.css" rel="stylesheet"/>
+    <link href="assets/js/owl-carousel/owl.theme.css" rel="stylesheet"/>
+    <link href="assets/js/owl-carousel/owl.transitions.css" rel="stylesheet"/>
+    <!-- intro animations -->
+    <link href="assets/js/wow/animate.css" rel="stylesheet"/>
+    <!-- font awesome -->
+    <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <!-- lightbox -->
+    <link href="assets/js/lightbox/css/lightbox.css" rel="stylesheet"/>
+
+    <!-- styles for this template -->
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+
+    <!-- place your extra custom styles in this file -->
+    <link href="assets/css/custom.css" rel="stylesheet"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- background image overlay (semi transparent dark background image overlay) -->
+    <!-- comment or remove if you don't want the overlay on top of the image -->
+    <div class="background-image-overlay"></div>
+
+    <!-- outer background container - the element from where the default page background image is set, and the element which changes its background when scrolling through other sections (.section-wrapoer) that have attribute "data-custom-background-img" set. 
+     - data-default-background-img attr is required for sections (.section-wrapper) below that have no custom background defined.
+     - use same image in the backstretch.js code in the footer for IE8 or less browsers -->
+    <!-- OLD assets/images/other_images/bg5.jpg -->
+    <div id="outer-background-container" data-default-background-img="assets/images/bg/Astudio.png"
+        style="background-image: url(assets/images/bg/Astudio.png);">
+    </div>
+    <!-- end: #outer-background-container -->
+
+    <!-- Outer Container -->
+    <div id="outer-container">
+
+        <!-- Left Sidebar -->
+        <section id="left-sidebar">
+
+            <!-- ==================================================================
+        LOGO 
+        ==================================================================  -->
+            <!-- change the img src to your logo -->
+            <div class="logo">
+                <a href="#intro" class="link-scroll">
+                    <img src="assets/images/loghi/Baustellestudio.svg" alt="baustelle studio"></a>
+            </div>
+            <!-- .logo -->
+            <!-- ==================== END: LOGO ==================== -->
+
+            <!-- Menu Icon for smaller viewports -->
+            <div id="mobile-menu-icon" class="visible-xs" onclick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
+
+            <!-- ==================================================================
+        MAIN MENU 
+        ==================================================================  -->
+            <!-- Each menu item links to a section (<article class="section-wrapper...") in the main content below.
+             - set each <li> id to this format: "menu-item-[the id of the .section-wrapper to link to]".
+             - set href of each <a> to the id of the .section-wrapper to link to -->
+            <ul id="main-menu">
+                <li id="menu-item-studio" class="menu-item scroll"><a href="#studio">Studio</a></li>
+                <li id="menu-item-progetti" class="menu-item scroll"><a href="#progetti">Progetti</a></li>
+                <li id="menu-item-pubblicazioni" class="menu-item scroll"><a href="#pubblicazioni">Pubblicazioni</a></li>
+                <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Contatti</a></li>
+                <!-- to include a link which doesn't scroll to a section inside the page, remove the .scroll class from the <li> - example below -->
+                <!-- <li id="menu-item-alt-page" class="menu-item"><a href="http://www.link.com">Outer Link</a></li> -->
+            </ul>
+            <!-- #main-menu -->
+            <!-- ==================== END: MAIN MENU ==================== -->
+
+        </section>
+        <!-- #left-sidebar -->
+        <!-- end: Left Sidebar -->
+
+        <!-- ==================================================================
+      MAIN CONTENT
+      ==================================================================  -->
+        <!-- all the website sections are contained in the <article> tag with class ".section-wrapper" and a unique id.
+           - to edit / remove / create website sections, you have to handle the content contained in these <article> tags -->
+        <section id="main-content" class="clearfix">
+
+            <!-- ==================== SECTION TYPE: Intro Text ==================== -->
+            <!-- This type of section should contain heading and intro paragraph. It can also include links to other sections -->
+            <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/Astudio.png">
+                <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
+                    <div class="col-sm-10 col-md-9 pull-right">
+
+                        <!-- Start: Section content to edit -->
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                    <!-- .col-sm-10 -->
+                </div>
+                <!-- .content-wrapper -->
+            </article>
+            <!-- .section-wrapper -->
+            <!-- ==================== END: SECTION TYPE: Intro Text ==================== -->
+
+
+            <!-- ==================== START STUDIO ===================================== -->
+
+            <article id="studio" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/Astudio.png">
+                <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
+                    <div class="col-sm-10 col-md-9 pull-right">
+
+                        <!-- Start: Section content to edit -->
+
+                        <!-- <p> text in .feature-text is larger  -->
+                        <section class="feature-text">
+                            <h1>Studio</h1>
+                            <p>Baustelle studio è una realtà della progettazione che si è confrontata 
+                                con tutti i campi della creatività, dall'architettura, alla grafica, 
+                                al web design, al tessile, 
+                                unendo alla ricerca delle idee un'attenta conoscenza 
+                                tecnica.
+                            </p>
+                            <p>
+                                Baustelle studio nasce dall'esperienza maturata in più di dieci anni di 
+                                attività professionale svolta in diverse città di'italia e si sviluppa
+                                come applicazione del percorso progettuale alle diverse discipline
+                                dell'ideazione.
+                            </p>
+
+                            <!-- to add scrolling effects to links linking to same page section, add .link-scroll class -->
+                        </section>
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                    <!-- .col-sm-10 -->
+                </div>
+                <!-- .content-wrapper -->
+            </article>
+            <!-- .section-wrapper -->
+
+            <!-- ==================== END STUDIO ===================================== -->
+            
+            <!-- ==================== SECTION TYPE: Progetti ==================== -->
+            <!-- This type of section should contain a max. of 3 items each consisting of an image and text. Each item may be linked -->
+            <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="progetti" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/Aprogetti.png">
+                <div class="content-wrapper clearfix">
+                    <div class="col-sm-11 pull-right">
+
+                        <h1 class="section-title">Progetti</h1>
+
+                        <!-- feature columns -->
+                        <section class="feature-columns row clearfix">
+
+                            <!-- FEATURED ITEM 1 -->
+                            <article class="feature-col col-md-4">
+                                <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]', '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                                <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+                                <a href="#" onclick="javascript:window.location.href = 'progetti-architettura.html#sanpetronio';" class="thumbnail linked">
+                                    <div class="image-container">
+                                        <img data-img-src="assets/images/progetti/san petronio ICONA 300x200.jpg" class="lazy item-thumbnail" alt="Programma di restauri per il 350° anniversario
+del completamento della Basilica di San Petronio"/>
+                                    </div>
+                                    <div class="caption">
+                                        <h5>Basilica di San Petronio</h5>
+                                        <p>2009/in corso - Bologna</p>
+                                        
+                                    </div>
+                                    <!-- .caption -->
+                                </a>
+                                <!-- .thumbnail -->
+                            </article>
+                            <!-- END: FEATURED ITEM 1 -->
+
+                            <!-- FEATURED ITEM 2 -->
+                            <article class="feature-col col-md-4">
+                                <a href="#" onclick="javascript:window.location.href = 'progetti-architettura.html#monselice';" class="thumbnail linked">
+                                    <div class="image-container">
+                                        <img data-img-src="assets/images/progetti/monselice ICONA 300x200.jpg" class="lazy item-thumbnail" alt="Concorso di progettazione per l'adeguamento liturgico e miglioramento dei percorsi di accesso - progetto vincitore"/>
+                                    </div>
+                                    <div class="caption">
+                                        <h5>Duomo di Monselice</h5>
+                                        <p>2013 - Monselice</p>
+                                    </div>
+                                    <!-- .caption -->
+                                </a>
+                                <!-- .thumbnail -->
+                            </article>
+                            <!-- END: FEATURED ITEM 2 -->
+
+                        </section>
+                        <!-- end: .feature-columns -->
+
+                        <p><a href="#text" class="link-scroll btn btn-outline-inverse btn-lg"
+                            onclick="javascript:window.location.href = 'progetti-architettura.html';"  >Vedi tutti i progetti</a></p>
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                    <!-- .col-sm-10 -->
+                </div>
+                <!-- .content-wrapper -->
+            </article>
+            <!-- .section-wrapper -->
+            <!-- ==================== END: SECTION TYPE: Progetti ==================== -->
+
+						<!-- ==================== SECTION TYPE: Pubblicazioni ==================== -->
+			
+			<article id="pubblicazioni" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/Apubblicazioni.png">
+                <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
+                    <div class="col-sm-10 col-md-9 pull-right">
+
+                        <!-- Start: Section content to edit -->
+
+                        <!-- <p> text in .feature-text is larger  -->
+                        <section class="feature-text">
+                            <h1>Pubblicazioni</h1>
+                            <ul>
+							<li>
+								<strong>Restauro - La basilica di san Petronio a Bologna - Continuità operativa e  programmazione coordinata</strong>, contributo; pubblicato in: <i>Il Nuovo Cantiere</i>, n. 28, 
+
+Milano, 2012;</li><li>
+
+<strong>Indagini non invasive e metodologie operative sul paramento lapideo</strong>, all'interno 
+
+del Convegno <i>Il restauro della facciata lapidea della Basilica di San Petronio 
+
+a Bologna</i> promosso dall'Opificio delle Pietre Dure e Laboratori di Restauro di 
+
+Firenze, Settore Materiali lapidei; Salone del Restauro di Ferrara, 2012;</li>
+
+<li>
+<strong>
+Un approdo a Ferrara tra Medioevo ed Età Moderna: la barca di Porta Paola</strong>, 
+
+contributo, Ferrara, 2008;</li><li>
+
+<strong>Natural multi-hazard and building vulnerability assessment in the historical 
+
+centers: the examples of San Giuliano di Puglia (Italy) and Valparaiso (Chile)</strong>, 
+
+presentato <i>"7th European Conference SAVEUR - Safeguarded Cultural Heritage 
+
+(Prague, 31 Maggio, 3 Giugno 2006)"</i>, nell'ambito della Session A3 - Innovative 
+
+Applications and New Ideas: Cities, Villages and Landscapes (incl. Archaeology), 
+
+Praga, 2006;</li>
+<li>
+<strong>Tecniche innovative per il controllo della stabilità degli edifici</strong>, pubblicato in 
+
+occasione del <i>Master Cittam</i>, Università di Napoli, 2005;</li><li>
+
+<strong>Il laser scanner per la salvaguardia dei beni culturali e del territorio – 
+
+monitoraggio di frane e alvei fluviali</strong>, <i>formato digitale</i> CD-ROM – DIAPREM e 
+
+Autorità di Bacino dell’Emilia-Romagna - 2005;</li><li>
+
+<strong>Il laser scanner per la salvaguardia dei beni culturali – il caso studio di Pompei</strong>, 
+
+supporto CD-ROM – DIAPREM e Soprintendenza Archeologica di Pompei - 
+
+2005;</li><li>
+
+<strong>Adina 8.1.2 – L’ultima release del software per la modellazione FEM, il calcolo 
+
+e l’analisi di problemi integrati statici, dinamici e termodinamici</strong>, pubblicato su: 
+
+<i>L’ufficio Tecnico</i>, mensile di tecnica edilizia ed urbanistica per amministrazioni 
+
+pubbliche professionisti e costruttori - 2005);</li>
+<li>
+<strong>
+Una procedura integrata per il rilievo e la restituzione digitale degli edifici storici</strong>,
+
+pubblicato su: <i>Paesaggio Urbano, rivista bimestrale di architettura, urbanistica e 
+
+ambiente</i> – Maggioli Editore – 5/2004;</li><li>
+
+<strong>Il Laser Scanner nel rilievo dei Fori Imperiali a Pompei</strong>: pubblicato sul Catalogo 
+
+di <i>RESTAURO – Economia della Cultura – Salone dell’arte del Restauro e della 
+
+Conservazione dei Beni Culturali e Ambientali</i>, ACROPOLI s.r.l., 2004;</li><li>
+
+<strong>Dalla Range Map al modello 3D</strong>, pubblicato sul Catalogo di: <i>RESTAURO – 
+
+Economia della Cultura – Salone dell’arte del Restauro e della Conservazione 
+
+dei Beni Culturali e Ambientali</i>, ACROPOLI s.r.l., 2004;</li><li>
+
+<strong>Il Palazzo Comunale di Ferrara, la Sala Estense - dalla scansione 
+
+tridimensionale all’analisi metrica, materica e strutturale di parte del Palazzo 
+
+Comunale di Ferrara</strong> – DIAPREM, Comune di Ferrara e Fassa Bortolo, Ferrara, 
+
+2003;</li><li>
+
+<strong>DIAPREM - Casi Studio</strong>, casi di rilievo e analisi di monumenti, opere d’arte, 
+
+ambiente – DIAPREM e Fassa Bortolo – 2003.
+
+</li>
+							
+							
+								
+							</ul>
+                            <!-- to add scrolling effects to links linking to same page section, add .link-scroll class -->
+                        </section>
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                    <!-- .col-sm-10 -->
+                </div>
+                <!-- .content-wrapper -->
+            </article>
+            <!-- .section-wrapper -->
+			
+			<!-- ==================== END Pubblicazioni=============================== -->
+			
+            <!-- ==================== SECTION TYPE: Contact ==================== -->
+            <!-- This type of section should contain text (contact details) and a contact form -->
+            <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/Acontatti.png">
+                <div class="content-wrapper clearfix">
+
+                    <!-- Start: Section content to edit -->
+
+                    <h1 class="section-title">Contatti</h1>
+
+                    <!-- CONTACT DETAILS -->
+                    <div class="contact-details col-sm-5 col-md-3">
+                        <p>
+                            BOLOGNA<br />
+                            via Pizzardi, 9<br />
+                            40138
+                        </p>
+
+                        <p>
+                            CESENA<br />
+                            via Ponte Abbadesse, 152<br />
+                            47023
+                        </p>
+
+                        <p>
+                            FERRARA<br />
+                            via Valle Fattibello, 120<br />
+                            44100
+                        </p>
+
+                        <p>
+                            tel. +39 37 13 901<br />
+                            fax +39 051 484 44 44
+                        </p>
+
+                        <p>mail <a href="mailto:info@baustellestudio.it">info@baustellestudio.it</a></p>
+
+                        <p><a href="#noteFiscali" class="link-scroll">note fiscali</a></p>
+                    </div>
+                    <!-- END: CONTACT DETAILS -->
+
+                    <!-- CONTACT FORM -->
+                    <div class="col-sm-7 col-md-9">
+                        <!-- IMPORTANT: change the email address at the top of the assets/php/mail.php file to the email address that you want this form to send to -->
+                        <form class="form-style validate-form clearfix" action="assets/php/mail.php" method="POST" role="form">
+
+                            <!-- form left col -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="text-field form-control validate-field required" data-validation-type="string" id="form-name" placeholder="Nome Completo" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="text-field form-control validate-field required" data-validation-type="email" id="form-email" placeholder="Indirizzo Mail" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="text-field form-control validate-field phone" data-validation-type="phone" id="form-contact-number" placeholder="Numero Telefonico" name="contact_number">
+                                </div>
+                                <div class="form-group text-right">
+                                    <!--<img id="form-captcha-img" src="assets/php/form_captcha/captcha_img.php">
+                                    <input type="text" class="text-field form-control validate-field required" data-validation-type="captcha" id="form-captcha" placeholder="Enter text" name="captcha">
+                                    <span id="form-captcha-refresh" class="fa fa-refresh" title="Reload"></span>-->
+
+                                    <!-- inserire captcha -->
+                                </div>
+                            </div>
+                            <!-- end: form left col -->
+
+                            <!-- form right col -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea placeholder="Messaggio..." class="form-control validate-field required" name="message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <img src="assets/images/theme_images/loader-form.GIF" class="form-loader">
+                                    <button type="submit" class="btn btn-sm btn-outline-inverse">Invia</button>
+                                </div>
+                                <div class="form-group form-general-error-container"></div>
+                            </div>
+                            <!-- end: form right col -->
+
+                        </form>
+                    </div>
+                    <!-- end: CONTACT FORM -->
+
+                    <!-- End: Section content to edit -->
+
+                </div>
+                <!-- .content-wrapper -->
+            </article>
+            <!-- .section-wrapper -->
+            <!-- ==================== ENDL SECTION TYPE: Contact ==================== -->
+
+            <article id="noteFiscali" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/Acontatti.png">
+                <div class="content-wrapper clearfix">
+
+                    <!-- Start: Section content to edit -->
+
+                    <h1 class="section-title">note fiscali</h1>
+
+                    <!-- CONTACT DETAILS -->
+                    <div class="contact-details col-sm-5 col-md-3">
+                        <br />
+                        referente principale<br />
+                        arch. Marco Berti</>
+                        <p>
+                            sede legale<br />
+                            via Ponte Abbadesse 152<br />
+                            47521 Cesena (FC)
+                        </p>
+                        <p>
+                            partita iva<br />
+                            03488820402
+                        </p>
+                        <p>
+                            codice fiscale<br />
+                            BRTMRC79L19C573E
+                        </p>
+                    </div>
+
+                    <div class="col-sm-7 col-md-9">
+                    </div>
+                </div>
+            </article>
+
+
+        </section>
+
+        </section>
+        <!-- #main-content -->
+        <!-- ==================== END: MAIN CONTENT ==================== -->
+
+        <!-- Footer -->
+        <section id="footer">
+
+            <!-- Go to Top -->
+            <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
+
+            <!-- copyright text -->
+            <div class="footer-text-line">&copy; 2014 Baustelle Studio</div>
+        </section>
+        <!-- end: Footer -->
+
+    </div>
+    <!-- #outer-container -->
+    <!-- end: Outer Container -->
+
+    <!-- Modal -->
+    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
+    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body">
+                </div>
+                <!-- .modal-body -->
+            </div>
+            <!-- .modal-content -->
+        </div>
+        <!-- .modal-dialog -->
+    </div>
+    <!-- .modal -->
+
+    <!-- Javascripts
+    ================================================== -->
+
+    <!-- Jquery and Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Easing - for transitions and effects -->
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+
+    <!-- background image strech script -->
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <!-- background image fix for IE 9 or less
+       - use same background as set above to <body> -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      jQuery("#outer-background-container").backstretch("assets/images/bg/Astudio.png");
+    });
+    </script> 
+    <![endif]-->
+
+    <!-- detect mobile browsers -->
+    <script src="assets/js/detectmobilebrowser.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- lightbox js -->
+    <script src="assets/js/lightbox/js/lightbox.min.js"></script>
+
+    <!-- intro animations -->
+    <script src="assets/js/wow/wow.min.js"></script>
+
+    <!-- responsive videos -->
+    <script src="assets/js/jquery.fitvids.js"></script>
+
+    <!-- Custom functions for this theme -->
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/initialise-functions.js"></script>
+
+    <!-- IE9 form fields placeholder fix -->
+    <!--[if lt IE 9]>
+    <script>contact_form_IE9_placeholder_fix();</script>
+    <![endif]-->
+
+</body>
+</html>

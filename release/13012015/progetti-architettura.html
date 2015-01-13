@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Architettura</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/images/other_images/favicon.png" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap theme -->
+    <link href="assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <!-- owl carousel css -->
+    <link href="assets/js/owl-carousel/owl.carousel.css" rel="stylesheet" />
+    <link href="assets/js/owl-carousel/owl.theme.css" rel="stylesheet" />
+    <link href="assets/js/owl-carousel/owl.transitions.css" rel="stylesheet" />
+    <!-- intro animations -->
+    <link href="assets/js/wow/animate.css" rel="stylesheet" />
+    <!-- font awesome -->
+    <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- lightbox -->
+    <link href="assets/js/lightbox/css/lightbox.css" rel="stylesheet" />
+
+    <!-- styles for this template -->
+    <link href="assets/css/styles.css" rel="stylesheet" />
+
+    <!-- place your extra custom styles in this file -->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- background image overlay (semi transparent dark background image overlay) -->
+    <!-- comment or remove if you don't want the overlay on top of the image -->
+    <div class="background-image-overlay"></div>
+
+    <!-- outer background container - the element from where the default page background image is set, and the element which changes its background when scrolling through other sections (.section-wrapoer) that have attribute "data-custom-background-img" set. 
+     - data-default-background-img attr is required for sections (.section-wrapper) below that have no custom background defined.
+     - use same image in the backstretch.js code in the footer for IE8 or less browsers -->
+    <!-- OLD assets/images/other_images/bg5.jpg -->
+    <div id="outer-background-container" data-default-background-img="assets/images/bg/Aprogetti.png"
+        style="background-image: url(assets/images/bg/Aprogetti.png);">
+    </div>
+    <!-- end: #outer-background-container -->
+
+    <!-- Outer Container -->
+    <div id="outer-container">
+
+        <!-- Left Sidebar -->
+        <section id="left-sidebar">
+
+            <!-- ==================================================================
+        LOGO 
+        ==================================================================  -->
+            <!-- change the img src to your logo -->
+            <div class="logo">
+                <a href="architettura.html" class="link-scroll">
+                    <img src="assets/images/loghi/Baustellestudio.svg" alt="baustelle studio"></a>
+            </div>
+            <!-- .logo -->
+            <!-- ==================== END: LOGO ==================== -->
+
+            <!-- Menu Icon for smaller viewports -->
+            <div id="mobile-menu-icon" class="visible-xs" onclick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
+
+            <!-- ==================================================================
+        MAIN MENU 
+        ==================================================================  -->
+            <!-- Each menu item links to a section (<article class="section-wrapper...") in the main content below.
+             - set each <li> id to this format: "menu-item-[the id of the .section-wrapper to link to]".
+             - set href of each <a> to the id of the .section-wrapper to link to -->
+            <ul id="main-menu">
+                <li id="menu-item-sanpetronio" class="menu-item scroll"><a href="#sanpetronio">San Petronio</a></li>
+                <li id="menu-item-monselice" class="menu-item scroll"><a href="#monselice">Monselice</a></li>
+                <!-- to include a link which doesn't scroll to a section inside the page, remove the .scroll class from the <li> - example below -->
+                <!-- <li id="menu-item-alt-page" class="menu-item"><a href="http://www.link.com">Outer Link</a></li> -->
+            </ul>
+            <!-- #main-menu -->
+            <!-- ==================== END: MAIN MENU ==================== -->
+
+        </section>
+        <!-- #left-sidebar -->
+        <!-- end: Left Sidebar -->
+
+        <!-- ==================================================================
+      MAIN CONTENT
+      ==================================================================  -->
+        <!-- all the website sections are contained in the <article> tag with class ".section-wrapper" and a unique id.
+           - to edit / remove / create website sections, you have to handle the content contained in these <article> tags -->
+        <section id="main-content" class="clearfix">
+
+            <!-- ==================== SECTION TYPE: Intro Text ==================== -->
+            <!-- This type of section should contain heading and intro paragraph. It can also include links to other sections -->
+            <!-- FOR EACH SECTION <article class="section-wrapper".. :
+             - remember to use a unique id, 
+             - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="intro" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/Aprogetti.png">
+                <div class="content-wrapper clearfix wow fadeInDown" data-wow-delay="0.3s">
+                    <div class="col-sm-10 col-md-9 pull-right">
+
+                        <section class="feature-text">
+
+                            <h1>Progetti - Architettura</h1>
+
+                        </section>
+
+                        <!-- Start: Section content to edit -->
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                    <!-- .col-sm-10 -->
+                </div>
+                <!-- .content-wrapper -->
+            </article>
+            <!-- .section-wrapper -->
+            <!-- ==================== END: SECTION TYPE: Intro Text ==================== -->
+
+            <!-- ==================== SECTION TYPE: San Petronio ==================== -->
+            <!-- This type of section should contain slides with an icon, text, and an optional button -->
+            <!-- FOR EACH SECTION <article class="section-wrapper".. :
+				 - remember to use a unique id, 
+				 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="sanpetronio" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/san petronio SFONDO 1800x1200.jpg">
+                <div class="content-wrapper clearfix">
+                    <div class="col-sm-11 pull-right">
+
+                        <h2>Basilica di San Petronio</h2>
+                        <p>2009/in corso - Bologna</p>
+
+                        <p>“Felsinae Thesaurus” - Programma di restauri per il 350° anniversario del completamento della Basilica di San Petronio, Bologna:</p>
+                        <p>
+                            Restauro della parte superiore della facciata<br />
+                            Restauro della parte inferiore della facciata e dei tre portali scolpiti<br />
+                            Illuminazione della facciata<br />
+                            Restauro della Cappella Ferrer<br />
+                            Restauro dei fianchi<br />
+                            Restauro del coperto della navata centrale<br />
+                        </p>
+
+                        <div class="caption">
+                            <p>
+                                <a href="#text" class="link-scroll btn btn-outline-inverse btn-lg"
+                                    onclick="populate_and_open_modal(event, 'modal-content-sanpetronio', '', 'full-size');">Vedi tutte le immagini</a>
+                            </p>
+                        </div>
+                        <!-- .caption -->
+
+                        <!-- .thumbnail -->
+
+                        <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+                        <div class="content-to-populate-in-modal" id="modal-content-sanpetronio">
+                            <h1>Basilica di San Petronio</h1>
+                            <p>2009/in corso - Bologna</p>
+
+                            <!-- alt image slider inside popup -->
+                            <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
+                            <!-- every Owl Carousel with class .popup-alt-image-gallery are initialised with same parameters when popup is showing (initialised in /js/initialise-functions.js) -->
+                            <div id="Div2" class="owl-carousel popup-alt-image-gallery">
+                                <div class="item">
+                                    <a href="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 00 aerea.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 00 aerea.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 01 facciata.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 01 facciata.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 02 facciata.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 02 facciata.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 05 portale.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 05 portale.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 06 formella fasi.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 06 formella fasi.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 07 Lunetta.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 07 Lunetta.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 08 adorazione magi.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 08 adorazione magi.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 09 interni.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 09 interni.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 10 NOTTE.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/san petronio CAROUSSEL 1200x800/san petronio 10 NOTTE.png" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #modal-content-8 -->
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                    <!-- .col-sm-10 -->
+                </div>
+            </article>
+
+            <!-- ==================== END: SECTION TYPE: Carousel ==================== -->
+
+            <!-- ==================== SECTION TYPE: Monselice ==================== -->
+            <!-- This type of section should contain slides with an icon, text, and an optional button -->
+            <!-- FOR EACH SECTION <article class="section-wrapper".. :
+				 - remember to use a unique id, 
+				 - (optional) set a "data-custom-background-img" attribute with a link to custom background image which will be used when the viewer scrolls to this section -->
+            <article id="monselice" class="section-wrapper clearfix" data-custom-background-img="assets/images/bg/monselice SFONDO 1800x1200.jpg">
+                <div class="content-wrapper clearfix">
+                    <div class="col-sm-11 pull-right">
+
+                        <h2>Duomo di Monselice</h2>
+                        <p>2013 - Monselice</p>
+
+                        <p>La proposta di adeguamento liturgico del presbiterio del Duomo di Monselice nasce da una visione complessiva dell’intero spazio celebrativo della chiesa, dove ogni componente concorre – in un rimando reciproco – allo svolgimento del culto. </p>
+                        <p>La nuova disposizione liturgica coinvolge dunque l’edificio sacro nel suo insieme, luogo vivo dell'incontro sacramentale ed espressione unitaria della realtà tangibile che in esso si compie, nel rispetto del contesto architettonico esistente.</p>
+                        <p>
+                            In questa prospettiva il progetto propone l’adeguamento dell’area presbiterale ed in particolare il nuovo inserimento dei suoi fuochi eminenti - altare, ambone, sede – in relazione allo spazio celebrativo unitariamente concepito. 
+
+                        </p>
+                        <!-- to make a popup/modal link add an onClick function call to the function: 
+                        - populate_and_open_modal(event, '[id of popup content container - see below]', '[optional - selector to scroll to inside popup]', '[optional - add class to the modal container]') -->
+                        <!-- if you don't want to link the featured item, replace the below <a> with a <div class="thumbnail"> -->
+
+
+                        <div class="caption">
+                            <p>
+                                <a href="#text" class="link-scroll btn btn-outline-inverse btn-lg"
+                                    onclick="populate_and_open_modal(event, 'modal-content-monselice', '', 'full-size');">Vedi tutte le immagini</a>
+                            </p>
+                        </div>
+                        <!-- .caption -->
+
+                        <!-- .thumbnail -->
+
+                        <!-- content which will be shown in the popup/modal when clicking on the above link 
+                        - it is important to set a unique id -->
+                        <div class="content-to-populate-in-modal" id="modal-content-monselice">
+                            <h1>Duomo di Monselice</h1>
+                            <p>2013 - Monselice</p>
+
+                            <!-- alt image slider inside popup -->
+                            <!-- documentation for Owl Carousel: http://www.owlgraphic.com/owlcarousel/#how-to -->
+                            <!-- every Owl Carousel with class .popup-alt-image-gallery are initialised with same parameters when popup is showing (initialised in /js/initialise-functions.js) -->
+                            <div id="unique-id-for-alt-image-slider" class="owl-carousel popup-alt-image-gallery">
+                                <div class="item">
+                                    <a href="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 1_low.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 1_low.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 2_low.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 2_low.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 2_z.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 2_z.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 3_low.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 3_low.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 3_z.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 3_z.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 4_low.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 4_low.png" /></a>
+                                </div>
+                                <div class="item">
+                                    <a href="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 5_low.png" data-lightbox="popup-alt-gallery">
+                                        <img class="lazyOwl" data-src="assets/images/progetti/monselice CAROUSSEL 1200x800/TAVOLA 5_low.png" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #modal-content-8 -->
+
+
+
+                        <!-- End: Section content to edit -->
+
+                    </div>
+                    <!-- .col-sm-10 -->
+                </div>
+            </article>
+
+        </section>
+        <!-- #main-content -->
+        <!-- ==================== END: MAIN CONTENT ==================== -->
+
+        <!-- Footer -->
+        <section id="footer">
+
+            <!-- Go to Top -->
+            <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
+
+            <!-- copyright text -->
+            <div class="footer-text-line">&copy; 2014 Baustelle Studio</div>
+        </section>
+        <!-- end: Footer -->
+
+    </div>
+    <!-- #outer-container -->
+    <!-- end: Outer Container -->
+
+    <!-- Modal -->
+    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
+    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body">
+                </div>
+                <!-- .modal-body -->
+            </div>
+            <!-- .modal-content -->
+        </div>
+        <!-- .modal-dialog -->
+    </div>
+    <!-- .modal -->
+
+    <!-- Javascripts
+    ================================================== -->
+
+    <!-- Jquery and Bootstrap JS -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Easing - for transitions and effects -->
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+
+    <!-- background image strech script -->
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <!-- background image fix for IE 9 or less
+       - use same background as set above to <body> -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      jQuery("#outer-background-container").backstretch("assets/images/bg/Astudio.png");
+    });
+    </script> 
+    <![endif]-->
+
+    <!-- detect mobile browsers -->
+    <script src="assets/js/detectmobilebrowser.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- lightbox js -->
+    <script src="assets/js/lightbox/js/lightbox.min.js"></script>
+
+    <!-- intro animations -->
+    <script src="assets/js/wow/wow.min.js"></script>
+
+    <!-- responsive videos -->
+    <script src="assets/js/jquery.fitvids.js"></script>
+
+    <!-- Custom functions for this theme -->
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/initialise-functions.js"></script>
+
+    <!-- IE9 form fields placeholder fix -->
+    <!--[if lt IE 9]>
+    <script>contact_form_IE9_placeholder_fix();</script>
+    <![endif]-->
+
+</body>
+</html>
