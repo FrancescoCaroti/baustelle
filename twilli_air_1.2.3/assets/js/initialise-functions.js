@@ -87,6 +87,13 @@ function initialise_document_ready_functions()
             }
           }); 
         }
+
+        // initialise forms in popups
+        if ($('#common-modal form.validate-form').length > 0)
+        {
+            validate_and_submit_forms($('#common-modal form.validate-form'));
+            reset_forms($('#common-modal form.validate-form'));
+        }
     });
 
     // ------ On Closing Popups ------
@@ -98,6 +105,15 @@ function initialise_document_ready_functions()
           var carousel_initialised_data = $('#common-modal .popup-image-gallery, #common-modal .popup-alt-image-gallery').data('owlCarousel');
           carousel_initialised_data.destroy();
         }
+
+        // reset captcha outside popup
+        if ($('#common-modal form.validate-form').length > 0)
+        {
+            setTimeout(function(){
+                $('#common-modal form.validate-form').remove();
+                reset_captcha();
+            }, 500);
+        }        
     });
     // ------ END: Owl Carousel ------    
 

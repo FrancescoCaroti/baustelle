@@ -945,8 +945,7 @@ function validate_and_submit_forms(form_object)
 
         // -------------- reload captcha --------------
         this_form.find("#form-captcha-refresh").click(function() {
-            this_form.find("#form-captcha-img").replaceWith('<img id="form-captcha-img" src="assets/php/form_captcha/captcha_img.php">');
-            this_form.find("#form-captcha").val("");
+            reset_captcha(this_form);
         });
 
         // -------------- on Submit of form --------------
@@ -1047,8 +1046,7 @@ function validate_and_submit_forms(form_object)
                     }
 
                     // refresh captcha
-                    this_form.find("#form-captcha-img").replaceWith('<img id="form-captcha-img" src="assets/php/form_captcha/captcha_img.php">');
-                    this_form.find("#form-captcha").val("");
+                    reset_captcha(this_form);
 
                     // if form submitted successfully, empty fields
                     if (submission_successful == true) this_form.find(".form-control").val("");
@@ -1073,6 +1071,47 @@ function validate_and_submit_forms(form_object)
     })
     // end: for each form
 }
+
+/*
+ * ================================================================
+ * Reset forms
+ *
+ * @param form_object - object - required - the form which will be reset
+ */
+ function reset_forms(form_object)
+ {
+    // if form exists
+    if (form_object !== undefined && form_object.length > 0)
+    {
+        var form = form_object;
+        form.find("input").val('');
+        form.find(".alert").remove();
+        form.find(".form-general-error-container").empty().hide();
+        reset_captcha(form_object);
+    }    
+ }
+
+/*
+ * ================================================================
+ * Reset form captchas
+ *
+ * @param form_object - object - required - the form which will be reset
+ */
+ function reset_captcha(form_object)
+ {
+    var forms = (form_object !== undefined && form_object.length > 0) ? form_object : $("form.validate-form");
+    // for each form 
+    forms.each(function(){
+        var this_form = $(this);
+        var captcha = this_form.find("#form-captcha-img");
+        if (captcha.length > 0 && this_form.is(":visible")) {
+            var d = new Date().getTime();
+            captcha.replaceWith('<img id="form-captcha-img" src="assets/php/form_captcha/captcha_img.php?t='+d+'" style="display:none">');
+            this_form.find("#form-captcha").val("");
+            setTimeout(function() { this_form.find("#form-captcha-img").show(); }, 500);
+        }
+    });  
+ }
 
 /*
  * ================================================================

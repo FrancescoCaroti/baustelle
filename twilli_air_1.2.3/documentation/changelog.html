@@ -39,6 +39,7 @@
 
     <h2 id="toc" class="alt">Table of Contents</h2>
     <ol class="alpha">
+      <li><a href="#v1_2_3">Version 1.2.3</a></li>
       <li><a href="#v1_2_2">Version 1.2.2</a></li>
       <li><a href="#v1_2_1">Version 1.2.1</a></li>
       <li><a href="#v1_2">Version 1.2</a></li>
@@ -47,6 +48,59 @@
     
     <hr>
     
+    <!-- ============== DOC SECTION - VERSION 1.2.3 ============== -->
+    <h3 id="v1_2_3"><strong>Version 1.2.3</strong> - <a href="#toc">top</a></h3>
+
+      <h5>December 2014</h5>
+
+      <p><strong style="text-decoration:underline">Keep a separate backup of your current website before applying the following update.</strong></p>
+
+      <h4>Changes/Updates:</h4>
+      <ul>
+        <li>Fixes a bug with the CAPTCHA refresh link.</li>
+        <li>Forms can now be used inside modals (popups).</li>
+        <li>Update of jQuery version 1.11.2</li>
+      </ul>
+      <br/>
+
+      <h4>New Files:</h4>
+      <p><em>Place the following new files inside your website's root.</em></p>
+      <ul>
+        <li><strong>/assets/js/jquery-1.11.2.min.js</strong></li>
+      </ul>
+      <br/>
+
+      <h4>Updated Files:</h4>
+      <p><em><strong>First keep a separate backup of your current version of these files.</strong> Then it is recommended to use a file comparison tool (ex: WinMerge, FileMerge, etc) to separately merge the updated files with your current version of the same files.</em></p>
+      <ul>
+        <li><strong>index.html and index_w_extra_comments.html</strong>
+          <ul>
+            <li>Added "clearfix" class to .modal-body</li>
+            <li>Changed references to jQuery 1.11.2 version (javascripts section)</li>
+          </ul>
+        </li>
+        <li><strong>/assets/css/styles.css</strong>
+          <ul>
+            <li>Updates to: all .form-style rules (Lines 1169 - 1350)</li>
+          </ul>
+        </li>        
+        <li><strong>/assets/js/functions.js</strong>
+          <ul>
+            <li>Updated function: validate_and_submit_forms</li>
+            <li>New functions: reset_forms, reset_captcha</li>
+          </ul>
+        </li>
+        <li><strong>/assets/js/initialise-functions.js</strong>
+          <ul>
+            <li>Updated function: initialise_document_ready_functions ('On Opening Popups', 'On Closing Popups' sections)</li>
+          </ul>
+        </li>
+        <li><strong>js/functions.min.js</strong> - <em>if you have made extra changes to functions.js before this update, you'll need to re-minify it again after applying this update, using a tool like <a href="http://alphapixels.com/prepros/" target="_blank">Prepros</a></em></li>
+      </ul>
+
+    <hr>
+    <!-- ============== END: DOC SECTION - VERSION 1.2.3 ============== -->
+
     <!-- ============== DOC SECTION - VERSION 1.2.2 ============== -->
     <h3 id="v1_2_2"><strong>Version 1.2.2</strong> - <a href="#toc">top</a></h3>
 

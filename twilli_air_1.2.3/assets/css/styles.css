@@ -1166,18 +1166,18 @@ h6 {
 
 /* -------------- CONTACT FORM ----------------- */
 
-#main-content .form-style {
+.form-style {
     display:block;
     margin:1em 0;
     padding:0;
 }
 
-#main-content .form-style .form-group {
+.form-style .form-group {
     position:relative;
 }
 
-#main-content .form-style input.text-field,
-#main-content .form-style textarea {
+.form-style input.text-field,
+.form-style textarea {
     background:rgba(0,0,0,0.15);
     border-color:#fff;
     -webkit-border-radius: 0;
@@ -1192,16 +1192,16 @@ h6 {
     transition: all 0.4s;   
 }
 
-#main-content .form-style input.text-field::-webkit-input-placeholder,
-#main-content .form-style input.text-field:-moz-placeholder,
-#main-content .form-style input.text-field::-moz-placeholder,
-#main-content .form-style input.text-field:-ms-input-placeholder {
+.form-style input.text-field::-webkit-input-placeholder,
+.form-style input.text-field:-moz-placeholder,
+.form-style input.text-field::-moz-placeholder,
+.form-style input.text-field:-ms-input-placeholder {
     color:#fff !important;
     font-weight: bold;
 }
 
-#main-content .form-style input.text-field:focus,
-#main-content .form-style textarea:focus {
+.form-style input.text-field:focus,
+.form-style textarea:focus {
     color:#000;
     background:#fff;
     border-color:#fff;
@@ -1210,11 +1210,11 @@ h6 {
     box-shadow:         none;  
 }
 
-#main-content .form-style textarea {
+.form-style textarea {
     height:125px;
 }
 
-#main-content .form-style .alert {
+.form-style .alert {
     display: none;
     background:#fff;
     color:#a10000;
@@ -1223,18 +1223,18 @@ h6 {
     border-radius: 0;
     padding:8px 10px;
 }
-#main-content .form-style .alert.success {
+.form-style .alert.success {
     color:#119400;
 }
 
-#main-content .form-style .form-general-error-container {
+.form-style .form-general-error-container {
     display:none;
 }
-#main-content .form-style .form-general-error-container .alert {
+.form-style .form-general-error-container .alert {
     display:block;
 }
 
-#main-content .form-style .form-loader {
+.form-style .form-loader {
     margin-right:8px;
     display: none;
 }
@@ -1245,22 +1245,22 @@ h6 {
 }
 
     @media (min-width: 768px) {
-        #main-content .form-style input.text-field,
-        #main-content .form-style textarea {
+        .form-style input.text-field,
+        .form-style textarea {
             height:35px;
             font-size:0.85em;
         }
-        #main-content .form-style textarea {
+        .form-style textarea {
             height:120px;
         }        
     }
     @media (min-width: 992px) {
-        #main-content .form-style input.text-field,
-        #main-content .form-style textarea {
+        .form-style input.text-field,
+        .form-style textarea {
             height:54px;
             font-size:0.97em;
         }
-        #main-content .form-style textarea {
+        .form-style textarea {
             height:195px;
         }  
     }
@@ -1306,29 +1306,29 @@ h6 {
     color: #444444 !important;
 }  
 
-#main-content .form-style #form-captcha {
+.form-style #form-captcha {
     height:35px;
     width:45%;
     display:inline-block;
     font-size:0.8em;
 }
     @media (min-width: 768px) {
-        #main-content .form-style #form-captcha {
+        .form-style #form-captcha {
             height:35px;
         }       
     }
     @media (min-width: 992px) {
-        #main-content .form-style #form-captcha {
+        .form-style #form-captcha {
             height:35px;
         }
     }
 
-#main-content .form-style #form-captcha-img {
+.form-style #form-captcha-img {
     width:45% !important;
     height:auto !important;
 }
 
-#main-content .form-style #form-captcha-refresh {
+.form-style #form-captcha-refresh {
     position: absolute;
     top:1px;
     left:0;
@@ -1344,7 +1344,7 @@ h6 {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }
-#main-content .form-style #form-captcha-refresh:hover {
+.form-style #form-captcha-refresh:hover {
     opacity: 1;
     filter: alpha(opacity=100);
 }
