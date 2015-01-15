@@ -3,6 +3,16 @@
     margin: 20px 20px 0px 0px;
 }
 
+.main-logo img {
+    max-width: 400px;
+}
+
     .green-title{
         color: #B6E300;
     }
+	
+	
+#main-content .feature-text ul {
+	text-align: right;
+	list-style: none;
+}
