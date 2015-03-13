@@ -3,3 +3,9 @@ D:\Project\GitHub\baustelle\src\Baustelle.Web\bin\Baustelle.Web.pdb
 D:\Project\GitHub\baustelle\src\Baustelle.Web\obj\Debug\Baustelle.Web.csprojResolveAssemblyReference.cache
 D:\Project\GitHub\baustelle\src\Baustelle.Web\obj\Debug\Baustelle.Web.dll
 D:\Project\GitHub\baustelle\src\Baustelle.Web\obj\Debug\Baustelle.Web.pdb
+C:\Users\Carrots\Documents\GitHub\baustelle\src\Baustelle.Web\bin\Baustelle.Web.dll.config
+C:\Users\Carrots\Documents\GitHub\baustelle\src\Baustelle.Web\bin\Baustelle.Web.dll
+C:\Users\Carrots\Documents\GitHub\baustelle\src\Baustelle.Web\bin\Baustelle.Web.pdb
+C:\Users\Carrots\Documents\GitHub\baustelle\src\Baustelle.Web\obj\Debug\Baustelle.Web.csprojResolveAssemblyReference.cache
+C:\Users\Carrots\Documents\GitHub\baustelle\src\Baustelle.Web\obj\Debug\Baustelle.Web.dll
+C:\Users\Carrots\Documents\GitHub\baustelle\src\Baustelle.Web\obj\Debug\Baustelle.Web.pdb
